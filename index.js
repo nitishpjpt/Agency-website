@@ -1,0 +1,1 @@
+const rel = document.get
