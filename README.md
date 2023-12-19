@@ -2,5 +2,12 @@
 " width"30">
 
 <h1 align="center">Hi ??, I'm Nitish pjpt</h1>
-* View Live demo > https://nitishpjpt.github.io/Agency-website/
+Live Preview of Website > [http://nitishpjpt.epizy.com/?i=1](http://nitishpjpt.epizy.com/?i=1)
+
+
+<h2 align="center">Built With...</h2>
+<li>HTML</li>
+<li>CSS</li>
+<li>JAVASCRIPT</li>
+
    
