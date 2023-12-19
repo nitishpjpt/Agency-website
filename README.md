@@ -2,7 +2,7 @@
 " width"30">
 
 <h1 align="center">Hi ??, I'm Nitish pjpt</h1>
-Live Preview of Website > [http://nitishpjpt.epizy.com/?i=1](http://nitishpjpt.epizy.com/?i=1)
+Live Preview of Website > https://nitishpjpt.github.io/Agency-website/
 
 
 <h2 align="center">Built With...</h2>
