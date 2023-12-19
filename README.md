@@ -1,4 +1,4 @@
-![2907562](https://github.com/nitishpjpt/Agency-website/assets/116824310/e40b5d28-6758-478c-8d5f-f313cb600a63)
+ <img src="![2907562](https://github.com/nitishpjpt/Agency-website/assets/116824310/e40b5d28-6758-478c-8d5f-f313cb600a63)" width"30">
 
 Agency Website
 
