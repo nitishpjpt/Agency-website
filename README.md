@@ -1,11 +1,13 @@
+# Web dev Agency Website
 
-<h1 align="center">Web dev Agency Website</h1>
-Live Preview of Website > https://nitishpjpt.github.io/Agency-website/
+This project is a Web Dev Agency website created with HTML, CSS, and JavaScript. 
 
+## Description
 
-<h2 align="left">Built With...</h2>
-<li>HTML</li>
-<li>CSS</li>
-<li>JAVASCRIPT</li>
+This repository contains a Agency website that showcases my Web dev Agency Details.
 
-   
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
