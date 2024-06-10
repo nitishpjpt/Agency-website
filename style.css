@@ -67,3 +67,30 @@ h4 {
   height: 100vh;
   background-color: rgba(142, 162, 243, 0.667);
 }
+
+svg{
+  width: 100%;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.347);
+  border-radius: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}

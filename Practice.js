@@ -5,37 +5,37 @@
 // Scrub is used to start animation on scrolleTrigger basis on somoth transition
 
 // properties used in the scrollTrigger Animation
-// transform, 
+// transform,
 // trigger = which page you want to trigger ,
-//  scroller is always 'body' 
-//  markers to show the markers in the page, 
+//  scroller is always 'body'
+//  markers to show the markers in the page,
 // start ,end pin ,scrub
 
+//cursor animation
+const main = document.querySelector(".main");
+const cursor = document.querySelector(".cursor");
+const img = document.querySelector("#img");
 
-
-var animation = gsap.timeline();
-
-animation.from("h3", {
-  duration: 1,
-  y: -40,
-  opacity: 0,
+main.addEventListener("mousemove", (dets) => {
+  gsap.to(cursor, {
+    x: dets.x,
+    y: dets.y,
+    duration: 1,
+    ease: "back.out",
+  });
 });
 
-animation.from("li", {
-  duration: 1,
-  y: -30,
-  opacity: 0,
-  stagger: 0.1,
+img.addEventListener("mousemove", () => {
+  cursor.innerHTML = `View More`;
+  gsap.to(cursor, {
+    scale: 2,
+    backgroundColor: "rgba(255, 0, 0, 0.347)",
+  });
 });
-animation.to(".section h1", {
-  transform: "translateX(-120%)",
-  scale:0.3,
-  scrollTrigger: {
-    trigger: ".section",
-    scroller: "body",
-    markers: true,
-    start: "top 0%",
-    pin: true,
-    scrub: 5,
-  },
+
+img.addEventListener("mouseleave", () => {
+  gsap.to(cursor, {
+    scale: 1,
+    backgroundColor: "#fffff8",
+  });
 });
